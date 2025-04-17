@@ -13,17 +13,17 @@ Run code:
 1. npm run dev
 
 Folder Structure:
-1.src/
-components/
-── Header.tsx
-── Parallax.tsx
-── VideoProcessor.tsx
-── Videostatus.tsx
-── Videouploader.tsx
-2.api/
-── api.ts
-── App.tsx
-── index.tsx
+src/
+├── components/
+│   ├── Header.tsx            # Application header component
+│   ├── Parallax.tsx           # Parallax effect component
+│   ├── VideoProcessor.tsx     # Handles video processing logic
+│   ├── Videostatus.tsx        # Displays video processing status
+│   └── Videouploader.tsx      # Handles video upload functionality
+├── api/
+│   ├── api.ts                # API service functions
+├── App.tsx               
+├── index.tsx            
 
 
 
