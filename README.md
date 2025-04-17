@@ -1,9 +1,9 @@
 A React + TypeScript frontend for uploading and annotating videos with object detection and segmentation via websocket.
 
 Tech Stack:
-React
-Typescript
-websocket for real-time updates
+1.React
+2.Typescript
+3.websocket for real-time updates
 
 Installation:
 1. npm install
@@ -13,14 +13,14 @@ Run code:
 1. npm run dev
 
 Folder Structure:
-src/
+1.src/
 components/
 ── Header.tsx
 ── Parallax.tsx
 ── VideoProcessor.tsx
 ── Videostatus.tsx
 ── Videouploader.tsx
-api/
+2.api/
 ── api.ts
 ── App.tsx
 ── index.tsx
