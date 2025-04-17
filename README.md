@@ -1,29 +1,40 @@
-A React + TypeScript frontend for uploading and annotating videos with object detection and segmentation via websocket.
+# Video Processing App Documentation
 
-Tech Stack:
-1.React
-2.Typescript
-3.websocket for real-time updates
+A React + TypeScript frontend application for uploading and annotating videos with object detection and segmentation via websocket.
 
-Installation:
-1. npm install
-   - creates node-modules folder and package-lock.json file
+## Tech Stack
 
-Run code:
-1. npm run dev
+1. React
+2. TypeScript
+3. WebSocket for real-time updates
 
-Folder Structure:
+## Installation
+
+```bash
+npm install
+```
+This creates:
+- `node-modules` folder
+- `package-lock.json` file
+
+## Running the Application
+
+```bash
+npm run dev
+```
+
+## Folder Structure
+
+```
 src/
 ├── components/
 │   ├── Header.tsx            # Application header component
-│   ├── Parallax.tsx           # Parallax effect component
-│   ├── VideoProcessor.tsx     # Handles video processing logic
-│   ├── Videostatus.tsx        # Displays video processing status
-│   └── Videouploader.tsx      # Handles video upload functionality
+│   ├── Parallax.tsx          # Parallax effect component
+│   ├── VideoProcessor.tsx    # Handles video processing logic
+│   ├── Videostatus.tsx       # Displays video processing status
+│   └── Videouploader.tsx     # Handles video upload functionality
 ├── api/
 │   ├── api.ts                # API service functions
 ├── App.tsx               
 ├── index.tsx            
-
-
-
+```
