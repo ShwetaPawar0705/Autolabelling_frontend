@@ -14,14 +14,16 @@ Run code:
 
 Folder Structure:
 src/
-├── components/
-│   └── Header.tsx
-|   └── Parallax.tsx
-|   └── VideoProcessor.tsx
-|   └── Videostatus.tsx
-|   └── Videouploader.tsx
-├── api/
-│   └── api.ts
-├── App.tsx
-├── index.tsx
+components/
+── Header.tsx
+── Parallax.tsx
+── VideoProcessor.tsx
+── Videostatus.tsx
+── Videouploader.tsx
+api/
+── api.ts
+── App.tsx
+── index.tsx
+
+
 
